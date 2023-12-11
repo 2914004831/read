@@ -1,0 +1,42 @@
+
+.book-progress {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  padding: 10px;
+}
+.progress-bar {
+	  width: 100%;
+	  height: 10px;
+	  background-color: #ccc;
+	  position: relative;
+}
+.progress-bar div {
+	  height: 100%;
+	  background-color: #007bff;
+	  transition: width 0.3s;
+}
+.progress-info {
+	  margin-top: 10px;
+}
+.overflow-ellipsis {
+		width:10rem;
+		font-size: 0.8rem;
+		overflow: hidden;
+	     -webkit-line-clamp: 1;
+	     text-overflow: ellipsis;
+	     display: -webkit-box;
+	     -webkit-box-orient: vertical;
+}
+.fff{
+		background: #ffffff;
+}
+.ant{
+		background-color: antiquewhite;
+}
+.grey{
+		background-color: azure;
+}
+.green{
+		background-color: aquamarine;
+}

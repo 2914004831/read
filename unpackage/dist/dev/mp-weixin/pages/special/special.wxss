@@ -1,0 +1,20 @@
+
+.box.data-v-b4bddda2{
+		width: 100px; 
+		height: 100px;
+		border-radius: 15px;
+}
+.red.data-v-b4bddda2{
+	color: red;
+}
+.green.data-v-b4bddda2{
+	color: green;
+}
+.overflow-ellipsis.data-v-b4bddda2 {
+	width:14rem;
+	overflow: hidden;
+     -webkit-line-clamp: 1;
+     text-overflow: ellipsis;
+     display: -webkit-box;
+     -webkit-box-orient: vertical;
+}

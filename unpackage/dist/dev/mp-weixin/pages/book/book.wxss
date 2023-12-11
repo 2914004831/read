@@ -1,0 +1,26 @@
+
+.overflow-ellipsis.data-v-e0cf4858 {
+	width:10rem;
+	font-size: 0.8rem;
+	overflow: hidden;
+     -webkit-line-clamp: 3;
+     text-overflow: ellipsis;
+     display: -webkit-box;
+     -webkit-box-orient: vertical;
+}
+.overflowcomment.data-v-e0cf4858 {
+	width:15rem;
+	font-size: 1rem;
+	overflow: hidden;
+     -webkit-line-clamp: 10;
+     text-overflow: ellipsis;
+     display: -webkit-box;
+     -webkit-box-orient: vertical;
+}
+.bg-red.data-v-e0cf4858{
+	background-color: #e2510e;
+}
+.bg-grey.data-v-e0cf4858{
+	background-color: #e2e1e1;
+}
+

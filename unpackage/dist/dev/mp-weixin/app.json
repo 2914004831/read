@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/register/register",
+    "pages/main/main",
+    "pages/my/my",
+    "pages/special/special",
+    "pages/score/score",
+    "pages/study/study",
+    "pages/search/search",
+    "pages/book/book",
+    "pages/commment/commment",
+    "pages/booklist/booklist",
+    "pages/essay/essay",
+    "pages/mybooklist/mybooklist",
+    "pages/password/password",
+    "pages/content/content",
+    "pages/words/words",
+    "pages/myword/myword"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#e74219",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "iconPath": "static/首页 .png",
+        "selectedIconPath": "static/首页_填充 (1).png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/special/special",
+        "iconPath": "static/清单.png",
+        "selectedIconPath": "static/清单_填充.png",
+        "text": "专题"
+      },
+      {
+        "pagePath": "pages/words/words",
+        "iconPath": "static/对话信息.png",
+        "selectedIconPath": "static/对话信息_填充.png",
+        "text": "留言"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/用户.png",
+        "selectedIconPath": "static/用户_填充.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

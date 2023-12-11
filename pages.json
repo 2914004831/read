@@ -1,0 +1,176 @@
+{
+    "easycom" : {
+        "^u-(.*)" : "@/uni_modules/uview-plus/components/u-$1/u-$1.vue"
+    },
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "navigationBarTitleText" : ""
+            },
+			"name": "login"
+        },
+        {
+            "path" : "pages/register/register",
+            "style" : {
+                "navigationBarTitleText" : "注册"
+            },
+			"name": "register"
+        },
+        {
+            "path" : "pages/main/main",
+            "style" : {
+                "navigationBarTitleText" : "",
+                "enablePullDownRefresh" : false
+            },
+			"name": "main",
+			 "beforeEnter": "interceptor" // 添加路由守卫
+        },
+        {
+            "path" : "pages/my/my",
+            "style" : {
+                "navigationBarTitleText" : "",
+                "enablePullDownRefresh" : false
+            },
+			 "beforeEnter": "interceptor" // 添加路由守卫
+        },
+        {
+            "path" : "pages/special/special",
+            "style" : {
+                "navigationBarTitleText" : "",
+                "enablePullDownRefresh" : false
+            }
+        },
+        {
+            "path" : "pages/score/score",
+            "style" : {
+                "navigationBarTitleText" : "",
+                "enablePullDownRefresh" : false
+            }
+        },
+        {
+            "path" : "pages/study/study",
+            "style" : {
+                "navigationBarTitleText" : "",
+                "enablePullDownRefresh" : false
+            }
+        },
+        {
+            "path" : "pages/search/search",
+            "style" : {
+                "navigationBarTitleText" : "",
+                "enablePullDownRefresh" : false
+            }
+        },
+        {
+            "path" : "pages/book/book",
+            "style" : {
+                "navigationBarTitleText" : "",
+                "enablePullDownRefresh" : true
+            }
+        },
+        {
+            "path" : "pages/commment/commment",
+            "style" : {
+                "navigationBarTitleText" : "",
+				"onReachBottomDistance": 300,
+                "enablePullDownRefresh" : false
+            }
+        },
+        {
+            "path" : "pages/booklist/booklist",
+            "style" : {
+                "navigationBarTitleText" : "",
+				 "onReachBottomDistance": 400,
+                "enablePullDownRefresh" : true
+				
+            }
+        },
+        {
+            "path" : "pages/essay/essay",
+            "style" : {
+                "navigationBarTitleText" : "",
+                "enablePullDownRefresh" : false
+            }
+        },
+        {
+            "path" : "pages/mybooklist/mybooklist",
+            "style" : {
+                "navigationBarTitleText" : "",
+                "enablePullDownRefresh" : false
+            }
+        },
+        {
+            "path" : "pages/password/password",
+            "style" : {
+                "navigationBarTitleText" : "",
+                "enablePullDownRefresh" : false
+            }
+        }
+        ,{
+            "path" : "pages/content/content",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/words/words",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/myword/myword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "uni-app",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    },
+    "uniIdRouter" : {},
+    "tabBar" : {
+		"color":"#8a8a8a",
+		"selectedColor":"#e74219",
+        "list" : [
+            {
+                "pagePath" : "pages/main/main",
+                "iconPath" : "static/首页 .png",
+                "selectedIconPath" : "static/首页_填充 (1).png",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "pages/special/special",
+                "iconPath" : "static/清单.png",
+                "selectedIconPath" : "static/清单_填充.png",
+                "text" : "专题"
+            },
+			{
+			    "pagePath" : "pages/words/words",
+			    "iconPath" : "static/对话信息.png",
+			    "selectedIconPath" : "static/对话信息_填充.png",
+			    "text" : "留言"
+			},
+            {
+                "pagePath" : "pages/my/my",
+                "iconPath" : "static/用户.png",
+                "selectedIconPath" : "static/用户_填充.png",
+                "text" : "我的"
+            }
+        ]
+    }
+}

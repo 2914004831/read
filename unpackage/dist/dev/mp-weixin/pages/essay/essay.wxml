@@ -1,0 +1,1 @@
+<view style="padding:0.7rem"><view class="fo-g">{{a}}</view><view>{{b}}</view><view><rich-text nodes="{{c}}"/></view></view>
